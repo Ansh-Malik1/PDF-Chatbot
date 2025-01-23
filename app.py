@@ -18,7 +18,7 @@ import streamlit as st
 
 load_dotenv()
 
-os.environ["HUGGINGFACE_TOKEN"]=os.getenv("HUGGINGFACE_API")
+os.environ["HUGGINGFACE_TOKEN"]=os.getenv("HUGGINGFACE_TOKEN")
 
 embeddings=HuggingFaceEmbeddings(model_name="all-MiniLM-l6-v2")
 
