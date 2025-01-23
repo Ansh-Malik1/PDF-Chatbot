@@ -26,7 +26,7 @@ embeddings=HuggingFaceEmbeddings(model_name="all-MiniLM-l6-v2")
 st.title("Conversational RAG with PDF uploads and chat history")
 st.write("Upload PDF and chat with their content")
 
-api_key=st.secrets["GROQ_API_KEY"]
+api_key=st.secrets["api"]
 
 if api_key:
     llm=ChatGroq(api_key=api_key,model="Gemma2-9b-It")
