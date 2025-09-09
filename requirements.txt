@@ -9,3 +9,5 @@ python-dotenv
 streamlit
 pypdf
 faiss-cpu
+sentence-transformers
+transformers
